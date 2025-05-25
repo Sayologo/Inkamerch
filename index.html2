@@ -102,6 +102,51 @@
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
 
+    .testimonials {
+      padding: 60px 40px;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    .testimonials h2 {
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+
+    .testimonial-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .testimonial {
+      max-width: 300px;
+      padding: 20px;
+      border: 1px solid #eee;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      background-color: #f9f9f9;
+    }
+
+    .testimonial img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .testimonial p {
+      font-size: 16px;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+
+    .testimonial strong {
+      font-size: 14px;
+      color: #555;
+    }
+
     .contact-section {
       padding: 60px 40px;
       background-color: #f9f9f9;
@@ -167,50 +212,6 @@
     }
   </style>
 </head>
-.testimonials {
-  padding: 60px 40px;
-  background-color: #fff;
-  text-align: center;
-}
-
-.testimonials h2 {
-  font-size: 32px;
-  margin-bottom: 40px;
-}
-
-.testimonial-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
-}
-
-.testimonial {
-  max-width: 300px;
-  padding: 20px;
-  border: 1px solid #eee;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  background-color: #f9f9f9;
-}
-
-.testimonial img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin-bottom: 15px;
-}
-
-.testimonial p {
-  font-size: 16px;
-  font-style: italic;
-  margin-bottom: 10px;
-}
-
-.testimonial strong {
-  font-size: 14px;
-  color: #555;
-}
 <body>
   <header>
     <div class="logo">INKAMERCH</div>
@@ -229,13 +230,14 @@
   </section>
 
   <section class="gallery">
-  <h2>Galería de productos</h2>
-  <div class="gallery-images">
-    <img src="img/merch1.jpg" alt="Producto Merch1">
-    <img src="img/merch2.jpg" alt="Producto Merch2">
-  </div>
-</section>
-<section class="testimonials">
+    <h2>Galería de productos</h2>
+    <div class="gallery-images">
+      <img src="img/merch1.jpg" alt="Producto Merch1">
+      <img src="img/merch2.jpg" alt="Producto Merch2">
+    </div>
+  </section>
+
+  <section class="testimonials">
     <h2>Testimonios</h2>
     <div class="testimonial-list">
       <div class="testimonial">
