@@ -185,13 +185,12 @@
   </section>
 
   <section class="gallery">
-    <h2>Galería de productos</h2>
-    <div class="gallery-images">
-      <img src="https://images.unsplash.com/photo-1526178612019-3c0b4d09a6d7" alt="merch 1">
-      <img src="https://images.unsplash.com/photo-1602810310025-44c8f1e7d1d1" alt="merch2">
-      <img src="https://images.unsplash.com/photo-1584648058106-3e75d50b30a6" alt="Producto 3">
-    </div>
-  </section>
+  <h2>Galería de productos</h2>
+  <div class="gallery-images">
+    <img src="img/merch1.jpg" alt="Producto Merch 1">
+    <img src="img/merch2.jpg" alt="Producto Merch2">
+  </div>
+</section>
 
   <section class="contact-section" id="contacto">
     <h2>Contáctanos</h2>
